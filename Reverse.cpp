@@ -11,9 +11,8 @@ int main(){
         rev=0;
        int k= n%10;
        rev=rev*10+k;
-       sum=rev+sum;
         n=n/10;
     }
-  cout<<sum;
+  cout<<rev;
     return 0;
 }
