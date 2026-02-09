@@ -4,7 +4,7 @@ int gcd(int a, int b){
     if(b%a==0){
         return a; 
     }
-     lcm(b%a,a);
+     gcd(b%a,a);
 }
 int main(){
     int a;
