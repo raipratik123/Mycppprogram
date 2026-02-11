@@ -9,6 +9,7 @@ int digitsum(int n){
     }
         return sum;
 }
+
         bool prime(int n){
         for(int i=2; i*i<=n; i++){
         if(n%i==0){
@@ -37,7 +38,7 @@ int main(){
     cout<<"boston"<<endl;
   }
   else{
-    cout<<"not boostan"
+    cout<<"not boostan";
   }
     return 0;
 }

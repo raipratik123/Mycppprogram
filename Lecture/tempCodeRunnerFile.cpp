@@ -1,4 +1,4 @@
-#include<iostream>
+#include<isotream>
 using namespace std;
 int main(){
     int n; 
@@ -12,7 +12,7 @@ int main(){
      temp=n;
      int sum=0;
     while(temp!=0){
-        int k=temp%10;
+        int k=twmp%10;
         sum=sum+pow(k,l);
         temp=temp/10;
     }
