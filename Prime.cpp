@@ -5,7 +5,7 @@ int main(){
     int n;
     cin>>n;
     bool ans=true;
-    for(int i=0; i<=sqrt(n); i++){
+    for(int i=2; i<=sqrt(n); i++){
         if (i%n==0)
         {
             ans=false;
@@ -13,9 +13,10 @@ int main(){
     }
     if(ans){
         cout<<"prime hai";
+        // break;
     }
     else{
-        cout<<"non-prime"
+        cout<<"non-prime";
     }
-    return 0;
+    return 0;    
 }
