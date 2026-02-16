@@ -1,29 +1,24 @@
-#include<isotream>
+#include<iostream>
 using namespace std;
-int main(){
-    int n; 
-    cin>>n;
-    int len=0;
-    int temp=n;
-    while(temp!=0){
-        temp=temp/10;
-        len++;
-    }
-     temp=n;
-     int sum=0;
-    while(temp!=0){
-        int k=twmp%10;
-        sum=sum+pow(k,l);
-        temp=temp/10;
-    }
-    if(sum==n){
-      cout<<"amstrong";
-    }
-    else{
-        cout<<"not";
-    }
+// int count(int x){
 
-
-    return 0;
-
+// }
+int main() {
+     int x;
+	 cin>>x;
+     	 int rev=0;
+	 while(x!=0){
+		 int t=x%10;
+		 int a=9-t;
+		 if(a<t){
+			 rev=rev*10+a;
+		 }
+		 else{
+			 rev=rev*10+t;
+		 }
+		 x=x/10;
+	 }
+	 cout<<rev<<endl;
+     
+	return 0;
 }
